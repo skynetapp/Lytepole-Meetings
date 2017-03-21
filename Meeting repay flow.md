@@ -1,7 +1,6 @@
 #### Step 1
 
-Function **controlMeetingRepayFlow** will be called first from index.php to controller. when click on payout in meeting detail and if card is incorrect while creating job 
-*then this function call for repayment.
+Function **controlMeetingRepayFlow** will be called first from index.php to controller. when click on payout in meeting detail and if card is incorrect while creating job then this function call for repayment.
 
 - Function **createMeetingListInputVO** takes the inputs array and send to data file and prepares the list object. It pepares the input to create meeting wsdl.
 - In action, first we will get the user id by function **getUserID**.
